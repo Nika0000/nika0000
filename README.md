@@ -6,7 +6,7 @@ Welcome to my GitHub profile, where you can find some of my work related to clou
 **About me**
 - 📖 I`m currently learning Data Architecture
 - 😄 I`m interested AI & ML
-- 💬 Ask me about anything [here](https://razorpay.com)
+- 💬 Ask me about anything [here](https://flameark.com)
 
 **Skills**
 - Programming languages: C++, Java, Dart, JavaScript
