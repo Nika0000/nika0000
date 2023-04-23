@@ -21,5 +21,5 @@ Cloud gaming has the potential to revolutionize the gaming industry by providing
 
 
 <video width=100% style="border-radius: 10px" controls autoplay>
-  <source src="assets/capt_0.mp4" type="video/mp4" >
+  <source src="https://github.com/Nika0000/nika0000/blob/main/assets/capt_0.mp4" type="video/mp4" >
 </video>
