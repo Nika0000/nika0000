@@ -1,7 +1,7 @@
 # Open Source Cloud Gaming Platform
 
 - [Introduction](#Introduction)
-- [Wath is Cloud Gaming?](#Wath-is-Cloud-Gaming?)
+- [Wath is Cloud Gaming](#Wath-is-Cloud-Gaming)
 - [How it Works](#How-it-Works)
 - [Features](#Features)
 - [Demo](#Demo)
@@ -16,7 +16,7 @@ This open-source platform allows you to create your own cloud gaming service, of
   <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/bcacce5c-18e9-49b2-ac41-cf569c76adeb">
 </picture>
 
-## Wath is Cloud Gaming?
+## Wath is Cloud Gaming
 Cloud gaming, also known as game streaming or game-as-a-service, is a technology that allows users to play video games via the internet without the need for dedicated gaming hardware. Instead of running games on a local device, cloud gaming services host games on powerful remote servers in data centers. Players interact with the game through a client application, and the video and audio outputs are streamed to their devices while their input commands are sent back to the server. This allows gamers to enjoy high-quality gaming experiences on a wide range of devices, including smartphones, tablets, laptops, and smart TVs.
 
 ## How it Works
