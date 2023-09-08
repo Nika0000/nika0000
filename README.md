@@ -1,22 +1,57 @@
-<img src="assets/header.gif" width= 100%>
+# Open Source Cloud Gaming Platform
 
-## Hi there, I`m Nika ❤️
-Welcome to my GitHub profile, where you can find some of my work related to cloud gaming and related technologies.
+## Introduction
 
-**About me**
-- 📖 I`m currently learning Data Architecture
-- 😄 I`m interested AI & ML
-- 💬 Ask me about anything [here](https://flameark.com)
+This open-source platform allows you to create your own cloud gaming service, offering a seamless gaming experience to users worldwide. Below, you will find information on what cloud gaming is, how this platform works, and the exciting features it offers
 
-**Skills**
-- Programming languages: C++, Java, Dart, JavaScript
-- Frameworks: Flutter
-- Design tools: Figma, Adobe XD
-- Cloud platforms: AWS, OCI
 
-**Currently Working**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/3bd1977f-4a5a-4e49-8d71-696516599e15">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
+  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
+</picture>
 
-<sup>As a developer working on a cloud gaming platform, my role involves designing and building the backend infrastructure and systems that power the platform, as well as developing the client-side applications and user interfaces that players use to access and play games. This includes working with cloud platforms such as AWS and Google Cloud, integrating game engines and other third-party software, and implementing features such as multiplayer functionality, game saves, and social features.
-Cloud gaming has the potential to revolutionize the gaming industry by providing accessible and high-quality gaming experiences to a wider audience. It also presents unique technical challenges related to latency, network performance, and data security. As a developer, I am excited to be working on the cutting edge of this rapidly evolving field, and I am committed to building scalable and robust solutions that provide the best possible gaming experiences to players around the world.<sup>
+## How it Works
 
-https://user-images.githubusercontent.com/72192978/233852442-3758c05d-e7d7-4fe1-969f-d20f5125d625.mp4
+Cloud gaming involves several key components and technologies:
+
+- **Cloud Servers**: High-performance servers in data centers run the games and handle the processing of game data.
+- **Client Applications**: Users install client applications on thier devices (e.g., smartphones, PCs, or consoles) to connect to the platform.
+- **Streaming: The game**`s video and audio outputs are encoded and streamd to the client device, allowing players to see and hear the game in real-time.
+- **Input Handling**: Player input commands (e.g., keyboard, mouse, or controller inputs) are sent from the client device to the cloud server.
+- **Latency Reduction**: Advanced technologies and algorithms are employed to minimize input lag and reduce latency, ensuring a responsive gaming experience.
+- **Session Managment**: The platform manages gaming sessions, including session sharing and real-time monitoring.
+- **Game Library**: Cloud gaming platforms offer a library of games that users can access and play on-demand, often via subscription models.
+
+> Cloud gaming service general architecture
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/2b54178f-b21d-4b7e-b6e6-cb4523c35c56">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
+  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
+</picture>
+
+## Features
+
+- **Cross-device Gaming**: Play games on a variety of devices, from smartphones to smart TVs, with consistent quality and performance.
+- **Low Latency**: Minimize input lag and provide a smooth gaming experience through optimized server infrastructure and network technologies.
+- **Multiplayer Support**: Enjoy online multiplayer gaming with friends and players from around the world.
+- **High-Resolutin Streaming**: Experience game in stunning high definition, up to 4K resolution, with high-quality audio.
+- **Customizable Settings**: Tailor the gaming experience to your preferences with customizable graphics and control settings.
+- **Session Sharing**: Allowing users to invite friends to join their gaming sessions. Whether you want to play cooperatively or simply share the gaming experience, session sharing makes it easy to connect with others.
+
+### Console
+
+This platform includes web console that allows administrators to manage users, sessions, machines, and more. With the web console, you can:
+
+  - Create and manage user accounts
+  - Monitor active gaming sessions in real-time
+  - Provision and manage VMs
+  - View performance metrics and analytics
+  - Control session access and permisions
+
+## Demo
+
+|  Demo Video #1  | Demo Video #2  |
+|  :---:  |  :---:  |
+|  [![Watch the video](https://img.youtube.com/vi/_SBtkIAtcIg/hqdefault.jpg)](https://youtu.be/_SBtkIAtcIg)  | [![Watch the video](https://img.youtube.com/vi/OhnVRVknez8/hqdefault.jpg)](https://youtu.be/OhnVRVknez8)
