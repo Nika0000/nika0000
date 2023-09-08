@@ -1,5 +1,10 @@
 # Open Source Cloud Gaming Platform
 
+- [Introduction](#Introduction)
+- [How it Works](#How-it-Works)
+- [Features](#Features)
+- [Demo](#Demo)
+  
 ## Introduction
 
 This open-source platform allows you to create your own cloud gaming service, offering a seamless gaming experience to users worldwide. Below, you will find information on what cloud gaming is, how this platform works, and the exciting features it offers
