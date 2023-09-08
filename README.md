@@ -10,11 +10,10 @@
 
 This open-source platform allows you to create your own cloud gaming service, offering a seamless gaming experience to users worldwide. Below, you will find information on what cloud gaming is, how this platform works, and the exciting features it offers
 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/3bd1977f-4a5a-4e49-8d71-696516599e15">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
-  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/bcacce5c-18e9-49b2-ac41-cf569c76adeb">
+  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/bcacce5c-18e9-49b2-ac41-cf569c76adeb">
 </picture>
 
 ## Wath is Cloud Gaming?
