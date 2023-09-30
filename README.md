@@ -48,8 +48,6 @@ Cloud gaming involves several key components and technologies:
 - **Customizable Settings**: Tailor the gaming experience to your preferences with customizable graphics and control settings.
 - **Session Sharing**: Allowing users to invite friends to join their gaming sessions. Whether you want to play cooperatively or simply share the gaming experience, session sharing makes it easy to connect with others.
 
-### Console
-
 This platform includes web console that allows administrators to manage users, sessions, machines, and more. With the web console, you can:
 
   - Create and manage user accounts
