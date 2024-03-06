@@ -58,6 +58,8 @@ This platform includes web console that allows administrators to manage users, s
 
 ## Demo
 
-|  Demo Video #1  | Demo Video #2  |
+|  Demo: Kingdom Classic  | Demo: Assassin`s Creed Odyssey  |
 |  :---:  |  :---:  |
-|  [![Watch the video](https://img.youtube.com/vi/_SBtkIAtcIg/hqdefault.jpg)](https://youtu.be/_SBtkIAtcIg)  | [![Watch the video](https://img.youtube.com/vi/OhnVRVknez8/hqdefault.jpg)](https://youtu.be/OhnVRVknez8)
+|  [![Watch the video](https://img.youtube.com/vi/_SBtkIAtcIg/hqdefault.jpg)](https://youtu.be/_SBtkIAtcIg)  | [![Watch the video](https://img.youtube.com/vi/OhnVRVknez8/hqdefault.jpg)](https://youtu.be/OhnVRVknez8) |
+| Demo: Forza Horizon 5 | Demo: Desktop |
+| [![Watch the video](https://img.youtube.com/vi/AUp_3Uy_yRs/hqdefault.jpg)](https://youtu.be/AUp_3Uy_yRs?si=fehDvK6fUDvB0rD-) | [![Demo Desktop](https://github.com/Nika0000/nika0000/assets/72192978/bce8ba4e-f393-4106-a665-535a335ff551)](https://github.com/Nika0000/nika0000/assets/72192978/5b496601-3587-41d2-9c48-e9952fa38e8c) |
