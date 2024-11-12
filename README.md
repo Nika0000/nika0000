@@ -1,9 +1,9 @@
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f419758a-2492-4944-abfe-8f8cc1d4832a"/>
+  <img src="https://github.com/user-attachments/assets/b37530fe-5411-4956-9430-be9fa88cc143"/>
 </div>
 
-#
+&nbsp;
 
 <div align="center">
     <b>RAYWAN</b> a cutting-edge cloud gaming platform <br>delivering the power of console gaming, anywhere, anytime.
