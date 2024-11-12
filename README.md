@@ -1,65 +1,82 @@
-# Open Source Cloud Gaming Platform
 
-- [Introduction](#Introduction)
-- [Wath is Cloud Gaming](#Wath-is-Cloud-Gaming)
-- [How it Works](#How-it-Works)
-- [Features](#Features)
-- [Demo](#Demo)
-  
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f419758a-2492-4944-abfe-8f8cc1d4832a"/>
+</div>
+
+#
+
+<div align="center">
+    <b>RAYWAN</b> a cutting-edge cloud gaming platform <br>delivering the power of console gaming, anywhere, anytime.
+</div>
+
+&nbsp;
+
+> [!NOTE]
+>
+> This project is under active development and not yet open for testing. Features and functionality are still being finalized.
+
 ## Introduction
 
-This open-source platform allows you to create your own cloud gaming service, offering a seamless gaming experience to users worldwide. Below, you will find information on what cloud gaming is, how this platform works, and the exciting features it offers
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/3bd1977f-4a5a-4e49-8d71-696516599e15">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/bcacce5c-18e9-49b2-ac41-cf569c76adeb">
-  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/bcacce5c-18e9-49b2-ac41-cf569c76adeb">
-</picture>
+__RAYWAN__ is an advanced, open-source cloud gaming platform engineered to deliver ultra-low-latency, high-quality gaming experiences across a wide range of devices. It’s designed with a clear separation between host and client technologies to optimize each side for the best performance, quality, and compatibility.
 
-## Wath is Cloud Gaming
-Cloud gaming, also known as game streaming or game-as-a-service, is a technology that allows users to play video games via the internet without the need for dedicated gaming hardware. Instead of running games on a local device, cloud gaming services host games on powerful remote servers in data centers. Players interact with the game through a client application, and the video and audio outputs are streamed to their devices while their input commands are sent back to the server. This allows gamers to enjoy high-quality gaming experiences on a wide range of devices, including smartphones, tablets, laptops, and smart TVs.
+Built from the ground up for flexibility and scalability, RAYWAN is ideal for developers, enthusiasts, and innovators who want a cloud gaming solution that is open to modification and can be self-hosted. By leveraging cutting-edge tools and libraries, RAYWAN provides the infrastructure to stream games in real-time with minimal latency, making it suitable for both personal use and large-scale deployments.
 
-## How it Works
-
-Cloud gaming involves several key components and technologies:
-
-- **Cloud Servers**: High-performance servers in data centers run the games and handle the processing of game data.
-- **Client Applications**: Users install client applications on thier devices (e.g., smartphones, PCs, or consoles) to connect to the platform.
-- **Streaming: The game**`s video and audio outputs are encoded and streamd to the client device, allowing players to see and hear the game in real-time.
-- **Input Handling**: Player input commands (e.g., keyboard, mouse, or controller inputs) are sent from the client device to the cloud server.
-- **Latency Reduction**: Advanced technologies and algorithms are employed to minimize input lag and reduce latency, ensuring a responsive gaming experience.
-- **Session Managment**: The platform manages gaming sessions, including session sharing and real-time monitoring.
-- **Game Library**: Cloud gaming platforms offer a library of games that users can access and play on-demand, often via subscription models.
-
-> Cloud gaming service general architecture
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/2b54178f-b21d-4b7e-b6e6-cb4523c35c56">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
-  <img alt="" src="https://github.com/Nika0000/nika0000/assets/72192978/6871f0ac-7608-49d7-9043-8a9eed3631b9">
-</picture>
+[![RayWAN DEMO #1](https://github.com/user-attachments/assets/21e15572-61d2-4d75-bca8-fb0eb44211d0)](https://www.youtube.com/watch?v=pxAh58DCgoU)
 
 ## Features
 
-- **Cross-device Gaming**: Play games on a variety of devices, from smartphones to smart TVs, with consistent quality and performance.
-- **Low Latency**: Minimize input lag and provide a smooth gaming experience through optimized server infrastructure and network technologies.
-- **Multiplayer Support**: Enjoy online multiplayer gaming with friends and players from around the world.
-- **High-Resolutin Streaming**: Experience game in stunning high definition, up to 4K resolution, with high-quality audio.
-- **Customizable Settings**: Tailor the gaming experience to your preferences with customizable graphics and control settings.
-- **Session Sharing**: Allowing users to invite friends to join their gaming sessions. Whether you want to play cooperatively or simply share the gaming experience, session sharing makes it easy to connect with others.
+- __Ultra-Low Latency__: Aiming for sub-50ms latency.
+- __High-Resolution Streaming__: Streaming up to 4K resolution at 60 FPS.
+- __Cross-Device Compatible__: Designed to stream games across multiple devices, enabling flexible client-side configurations without requiring high-end hardware.
+- __Hardware Decoding/Encoding__: Supports hardware-accelerated decoding/encoding with popular codecs like H.264, HEVC, and AV1.
+- __Multi-Gamepad Support__: Allows up to 4 gamepads to be connected simultaneously.
+- __Self-Hosting Capabilities__: Deployable on both personal servers and cloud infrastructure, providing flexibility for individual or large-scale usage.
 
-This platform includes web console that allows administrators to manage users, sessions, machines, and more. With the web console, you can:
+## How it Works
 
-  - Create and manage user accounts
-  - Monitor active gaming sessions in real-time
-  - Provision and manage VMs
-  - View performance metrics and analytics
-  - Control session access and permisions
+RAYWAN operates on a host-client architecture, designed for real-time, low-latency communication between a gaming server (host) and the client application. The platform utilizes P2P (peer-to-peer) communication, allowing for direct, fast video/audio streaming from the server to the client without intermediary servers.
+
+Here’s a step-by-step breakdown of the data flow and processes in RAYWAN:
+
+### Server Side (Host)
+
+1. __Game Rendering__: The game is rendered on the host server using high-performance computing resources, typically leveraging GPU acceleration to ensure smooth, high-frame-rate rendering.
+
+2. __Video Capture and Encoding__: Once the game is rendered, frames are captured and then encoded using GPU hardware acceleration. RAYWAN supports various codecs such as H.264, HEVC, and AV1, ensuring high-quality, efficient encoding. The use of hardware encoding reduces latency and CPU load, optimizing performance.
+
+3. __RTSP Streaming__: The encoded video and audio streams are packaged into an RTSP (Real-Time Streaming Protocol) stream. RTSP allows efficient real-time transmission of multimedia content, which is ideal for high-performance gaming.
+
+4. __Input Handling__: On the server side, the Input Receiver module listens for user input from the client (keyboard, mouse, controller actions). This input is then relayed to the Replay User Input module, where actions are immediately processed in the game environment, ensuring real-time responsiveness.
+
+### Client Side
+1. __RTSP Reception and Decoding__: The client application receives the RTSP stream containing video and audio data. Using GPU hardware acceleration, the client decodes the stream in real-time, enabling smooth, high-definition playback on a range of devices without requiring high-end hardware.
+
+2. __Game Display__: The decoded video frames are displayed to the user, creating a high-fidelity gaming experience with minimal latency, effectively mirroring the game running on the server.
+
+3. __User Input Capture and Transmission__: The client captures user input (keyboard, mouse, or controller actions) and sends this data back to the server through the Input Sender module. This data is transmitted over the network using P2P communication, bypassing unnecessary network hops and minimizing delay.
+
+### Network Layer
+
+- __P2P Communication__: By implementing peer-to-peer networking, RAYWAN reduces latency associated with traditional server-based networking. The direct P2P connection between the server and client allows for efficient, low-latency data transmission of both video/audio streams and input commands.
+
+- __Bi-Directional Data Flow__: The network layer supports bi-directional communication: the video and audio data flows from the server to the client, while input data flows from the client to the server. This two-way communication is optimized for gaming, with video/audio streams and user input tightly synchronized.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/3cdfa734-06f9-4f2a-b619-8c1424c6c83e">
+  <img alt="" src="https://github.com/user-attachments/assets/06649675-c6c8-4c88-b6c7-de46f789411d">
+</picture>
+
+> __RAYWAN__ General architecture
+
+### GPU Hardware Acceleration
+
+Both server and client rely on GPU hardware acceleration for encoding and decoding video, significantly improving performance. GPU acceleration reduces CPU usage, minimizes latency, and enables RAYWAN to handle high-resolution, high-frame-rate video streams without sacrificing quality.
 
 ## Demo
 
-|  Demo: Kingdom Classic  | Demo: Assassin`s Creed Odyssey  |
-|  :---:  |  :---:  |
-|  [![Watch the video](https://img.youtube.com/vi/_SBtkIAtcIg/hqdefault.jpg)](https://youtu.be/_SBtkIAtcIg)  | [![Watch the video](https://img.youtube.com/vi/OhnVRVknez8/hqdefault.jpg)](https://youtu.be/OhnVRVknez8) |
-| Demo: Forza Horizon 5 | Demo: Desktop |
-| [![Watch the video](https://img.youtube.com/vi/AUp_3Uy_yRs/hqdefault.jpg)](https://youtu.be/AUp_3Uy_yRs?si=fehDvK6fUDvB0rD-) | [![Demo Desktop](https://github.com/Nika0000/nika0000/assets/72192978/bce8ba4e-f393-4106-a665-535a335ff551)](https://github.com/Nika0000/nika0000/assets/72192978/5b496601-3587-41d2-9c48-e9952fa38e8c) |
+| Demo: Chivarly 2                                                                                         | Demo: Forza Horizon 5                                                                                    |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| [![Watch the video](https://img.youtube.com/vi/2bpMF2vbXdE/hqdefault.jpg)](https://youtu.be/2bpMF2vbXdE) | [![Watch the video](https://img.youtube.com/vi/AUp_3Uy_yRs/hqdefault.jpg)](https://youtu.be/AUp_3Uy_yRs) |
+| Demo: Assassin's creed odyssey                                                                           | Demo: Kingdom Classics                                                                                   |
+| [![Watch the video](https://img.youtube.com/vi/OhnVRVknez8/hqdefault.jpg)](https://youtu.be/OhnVRVknez8) | [![Watch the video](https://img.youtube.com/vi/_SBtkIAtcIg/hqdefault.jpg)](https://youtu.be/_SBtkIAtcIg) |
